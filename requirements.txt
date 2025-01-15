@@ -1,3 +1,12 @@
 tensorflow==2.7
 regex
 urllib3==1.26.6
+uvicorn
+fastapi
+requests
+pydantic
+gunicorn
+uvloop
+httptools
+json2html
+tqdm
