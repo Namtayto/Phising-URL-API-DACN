@@ -1,5 +1,5 @@
 # Use the official Python image with a specific version (e.g., 3.9)
-FROM python:3.12-slim
+FROM python:3.9-slim
 
 # Install required system dependencies
 RUN apt-get update && apt-get install -y \
