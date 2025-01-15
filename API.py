@@ -1,4 +1,6 @@
 
+import os
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 from tensorflow import keras
 from Feature_Extractor import extract_features
 
