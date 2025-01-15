@@ -25,10 +25,10 @@ app.add_middleware(
 
 
 @app.post("/predict")
-def predict(data: UrlData):
+def predict(url: str):
     model_path = r"Malicious_URL_Prediction.h5"
 
-    prediction = get_prediction(UrlData,model_path)
+    prediction = get_prediction(url,model_path)
     print(prediction)
 
     return prediction
